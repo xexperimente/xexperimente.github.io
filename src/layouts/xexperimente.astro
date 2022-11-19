@@ -1,13 +1,9 @@
----
-const { frontmatter } = Astro.props;
----
-
 <html>
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
 
-        <title>{frontmatter.title}</title>
+        <title>xexperimente.github.io</title>
     </head>
     <body>
         <div class="container mx-auto">
@@ -21,12 +17,6 @@ const { frontmatter } = Astro.props;
                     <a href="/" class="text-blue-500 hover:text-blue-300 px-2">
                         Home
                     </a>
-                    <!--a
-                        href="/about"
-                        class="text-blue-500 hover:text-blue-300 px-2"
-                    >
-                        About
-                    </a-->
                     <a
                         href="/projects"
                         class="text-blue-500 hover:text-blue-300 px-2"
@@ -58,6 +48,7 @@ const { frontmatter } = Astro.props;
                 </li>
             </ul>
         </div>
+
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script
             async

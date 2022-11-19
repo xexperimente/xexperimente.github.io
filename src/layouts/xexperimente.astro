@@ -6,6 +6,7 @@ const { frontmatter } = Astro.props;
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
+
         <title>{frontmatter.title}</title>
     </head>
     <body>
@@ -39,6 +40,24 @@ const { frontmatter } = Astro.props;
             </article>
         </div>
 
+        <div class="container mx-auto mt-8 py-2 border-t">
+            <ul>
+                <li>
+                    <a
+                        rel="me"
+                        href="https://mastodon.gamedev.place/@xexperimente"
+                        class="text-blue-500"
+                    >
+                        Mastodon
+                    </a>
+                    <a
+                        rel="me"
+                        href="https://twitter.com/xexperimente"
+                        class="text-blue-500">Twitter</a
+                    >
+                </li>
+            </ul>
+        </div>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script
             async

@@ -4,10 +4,8 @@ title: xexperimente's page
 description: home site of github.com/xexperimente
 ---
 
-# Hello
+# #introduction
 
-I am c++ developer.
+My name is Petr Kadlec.
 
-
-### Site
-Build by Astro and Tailwindcss
+I love programming. C++, PHP, OpenGL etc.

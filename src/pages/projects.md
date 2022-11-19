@@ -3,7 +3,6 @@ layout: ../layouts/xexperimente.astro
 title: Portfolio
 description: xexperimente's Portfolio
 ---
-# Portfolio
+# #projects
 
-- Æ - opengl/vulkan render toolkit
-- UISet - win32 ui toolkit
+Unfortunately there is nothing public to show here yet.

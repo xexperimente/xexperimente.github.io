@@ -7,4 +7,4 @@ description: home site of github.com/xexperimente
 
 My name is Petr Kadlec.
 
-I love programming. C++, PHP, OpenGL etc.
+I love programming.

@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-500: oklch(0.72 0.12 260);
+  --breakpoint-3xl: 120rem; /* adds 3xl: variant */
+}
+
+@plugin "@tailwindcss/typography";
